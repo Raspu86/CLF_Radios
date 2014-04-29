@@ -107,7 +107,7 @@ class clear: HiddenButton
 	w = 0.04125 * safezoneW;
 	h = 0.033 * safezoneH;
 	tooltip = $STR_clear_frequency;
-	action = "ctrlSetText [IDC_ANPRC117G_RADIO_DIALOG_EDIT_ID, '']; ctrlSetFocus ((findDisplay IDC_ANPRC117G_RADIO_DIALOG_ID) displayCtrl IDC_ANPRC117G_RADIO_DIALOG_EDIT_ID);";
+	action = "ctrlSetText [1410, '']; ctrlSetFocus ((findDisplay 1666) displayCtrl 1410);";
 };
 class prev_channel: HiddenButton
 {
@@ -137,7 +137,7 @@ class enter: HiddenButton
 	w = 0.04125 * safezoneW;
 	h = 0.033 * safezoneH;
 	tooltip = $STR_set_frequency;
-	action = "_f = parseNumber(ctrlText IDC_ANPRC117G_RADIO_DIALOG_EDIT_ID);if ((_f >= TF_MIN_ASIP_FREQ) and (_f <= TF_MAX_ASIP_FREQ)) then {[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1, str (round (_f * TF_FREQ_ROUND_POWER) / TF_FREQ_ROUND_POWER)] call TFAR_fnc_setLrFrequency; call TFAR_fnc_hideHint;} else {hint formatText [localize 'STR_incorrect_frequency', TF_MIN_ASIP_FREQ, TF_MAX_ASIP_FREQ]}; call TFAR_fnc_updateLRDialogToChannel;";
+	action = "_f = parseNumber(ctrlText 1410);if ((_f >= TF_MIN_ASIP_FREQ) and (_f <= TF_MAX_ASIP_FREQ)) then {[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1, str (round (_f * TF_FREQ_ROUND_POWER) / TF_FREQ_ROUND_POWER)] call TFAR_fnc_setLrFrequency; call TFAR_fnc_hideHint;} else {hint formatText [localize 'STR_incorrect_frequency', TF_MIN_ASIP_FREQ, TF_MAX_ASIP_FREQ]}; call TFAR_fnc_updateLRDialogToChannel;";
 };
 class channel01: HiddenButton
 {

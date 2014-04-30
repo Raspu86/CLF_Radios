@@ -60,7 +60,7 @@ class anprc117g_radio_dialog
 
 ////////////////////////////////////////////////////////
 // GUI EDITOR OUTPUT START (by [TF]Nkey, v1.062, #Wetyli)
-//edited by C-L-F Raspu for AN/PRC-117G
+// edited by C-L-F Raspu for AN/PRC-117G
 ////////////////////////////////////////////////////////
 
 class background: RscBackPicture
@@ -72,6 +72,7 @@ class background: RscBackPicture
 	w = 0.634219 * safezoneW;
 	h = 1.1 * safezoneH;
 	moving = 1;
+	onLoad = "if(sunOrMoon < 0.2)then{((_this select 0) displayCtrl 1210) ctrlSetText 'clf_radios\data\interfaces\anprc117g_night.paa';};";
 };
 class edit: RscEditLCD
 {
@@ -108,6 +109,7 @@ class clear: HiddenButton
 	h = 0.033 * safezoneH;
 	tooltip = $STR_clear_frequency;
 	action = "ctrlSetText [1410, '']; ctrlSetFocus ((findDisplay 1666) displayCtrl 1410);";
+	onMouseButtonClick = displayCtrl 1618 ctrlSetText "\A3\ui_f\data\GUI\RscCommon\RscShortcutButton\down_ca.paa";
 };
 class prev_channel: HiddenButton
 {

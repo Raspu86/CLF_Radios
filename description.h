@@ -149,3 +149,5 @@ class HiddenButton
 
 
 #include "\clf_radios\data\interfaces\anprc117g.ext"
+#include "\clf_radios\data\interfaces\falconIIImc.ext"
+#include "\clf_radios\data\interfaces\trc9110.ext"

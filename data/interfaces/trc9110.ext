@@ -1,0 +1,278 @@
+/* #Fytito
+$[
+	1.063,
+	["trc9110",[[0,0,1,1],0.025,0.04,"GUI_GRID"],0,0,0],
+	[1200,"trc9110",[1,"clf_radios\data\interfaces\trc9110.paa",["0.0359372 * safezoneW + safezoneX","0.016 * safezoneH + safezoneY","0.520781 * safezoneW","0.968 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1800,"edit",[1,"",["0.298906 * safezoneW + safezoneX","0.236 * safezoneH + safezoneY","0.04125 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1801,"channel_edit",[1,"",["0.2525 * safezoneW + safezoneX","0.236 * safezoneH + safezoneY","0.0464063 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1802,"enter",[1,"",["0.319531 * safezoneW + safezoneX","0.555 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1803,"clear",[1,"",["0.242187 * safezoneW + safezoneX","0.786 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1804,"next_channel",[1,"",["0.319531 * safezoneW + safezoneX","0.599 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1805,"prev_channel",[1,"",["0.247344 * safezoneW + safezoneX","0.599 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1806,"increase_volume",[1,"",["0.298906 * safezoneW + safezoneX","0.016 * safezoneH + safezoneY","0.020625 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1807,"decrease_volume",[1,"",["0.273125 * safezoneW + safezoneX","0.016 * safezoneH + safezoneY","0.020625 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1808,"channel1",[1,"",["0.242187 * safezoneW + safezoneX","0.643 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1809,"channel2",[1,"",["0.283437 * safezoneW + safezoneX","0.643 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1810,"channel3",[1,"",["0.319531 * safezoneW + safezoneX","0.643 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1811,"channel4",[1,"",["0.242187 * safezoneW + safezoneX","0.687 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1812,"channel5",[1,"",["0.283437 * safezoneW + safezoneX","0.687 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1813,"channel6",[1,"",["0.319531 * safezoneW + safezoneX","0.687 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1814,"channel7",[1,"",["0.242187 * safezoneW + safezoneX","0.731 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1815,"channel8",[1,"",["0.283437 * safezoneW + safezoneX","0.731 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1816,"channel9",[1,"",["0.319531 * safezoneW + safezoneX","0.731 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1817,"stereo",[1,"",["0.283437 * safezoneW + safezoneX","0.786 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1818,"additional",[1,"",["0.319531 * safezoneW + safezoneX","0.786 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]]
+]
+$[1.063,["trc9110",[[0,0,1,1],0.025,0.04,"GUI_GRID"],0,0,0],[1200,"trc9110",[1,"clf_radios\data\interfaces\trc9110.paa",["0.0359372 * safezoneW + safezoneX","0.016 * safezoneH + safezoneY","0.520781 * safezoneW","0.968 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1800,"edit",[1,"",["0.298906 * safezoneW + safezoneX","0.236 * safezoneH + safezoneY","0.04125 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1801,"channel_edit",[1,"",["0.2525 * safezoneW + safezoneX","0.236 * safezoneH + safezoneY","0.0464063 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1802,"enter",[1,"",["0.319531 * safezoneW + safezoneX","0.555 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1803,"clear",[1,"",["0.242187 * safezoneW + safezoneX","0.786 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1804,"next_channel",[1,"",["0.319531 * safezoneW + safezoneX","0.599 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1805,"prev_channel",[1,"",["0.247344 * safezoneW + safezoneX","0.599 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1806,"increase_volume",[1,"",["0.298906 * safezoneW + safezoneX","0.016 * safezoneH + safezoneY","0.020625 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1807,"decrease_volume",[1,"",["0.273125 * safezoneW + safezoneX","0.016 * safezoneH + safezoneY","0.020625 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1808,"channel1",[1,"",["0.242187 * safezoneW + safezoneX","0.643 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1809,"channel2",[1,"",["0.283437 * safezoneW + safezoneX","0.643 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1810,"channel3",[1,"",["0.319531 * safezoneW + safezoneX","0.643 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1811,"channel4",[1,"",["0.242187 * safezoneW + safezoneX","0.687 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1812,"channel5",[1,"",["0.283437 * safezoneW + safezoneX","0.687 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1813,"channel6",[1,"",["0.319531 * safezoneW + safezoneX","0.687 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1814,"channel7",[1,"",["0.242187 * safezoneW + safezoneX","0.731 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1815,"channel8",[1,"",["0.283437 * safezoneW + safezoneX","0.731 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1816,"channel9",[1,"",["0.319531 * safezoneW + safezoneX","0.731 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1817,"stereo",[1,"",["0.283437 * safezoneW + safezoneX","0.786 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1818,"additional",[1,"",["0.319531 * safezoneW + safezoneX","0.786 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]]]
+*/
+
+class trc9110_radio_dialog
+{
+	idd = IDD_trc9110_RADIO_DIALOG;
+	movingEnable = 1;
+	controlsBackground[] = { };
+	objects[] = { };
+	onLoad = "if(sunOrMoon < 0.2)then{((_this select 0) displayCtrl 1310) ctrlSetText 'clf_radios\data\interfaces\trc9110_night.paa';};";
+	controls[]=
+{
+	background,
+	enter,
+	edit,
+	channel_edit,
+	clear,
+	prev_channel,
+	next_channel,
+	//channel01,
+	//channel02,
+	//channel03,
+	//channel04,
+	//channel05,
+	//channel06,
+	//channel07,
+	//channel08,
+	//channel09,
+	increase_volume,
+	decrease_volume,
+	stereo,
+	additional
+};
+
+////////////////////////////////////////////////////////
+// GUI EDITOR OUTPUT START (by [TF]Nkey, v1.062, #Wetyli)
+// edited by C-L-F Raspu for TRC 9110
+////////////////////////////////////////////////////////
+
+class background: RscBackPicture
+{
+	idc = IDC_TRC9110_BACKGROUND;
+	text = "\clf_radios\data\interfaces\trc9110.paa";
+	x = 0.0359372 * safezoneW + safezoneX;
+	y = 0.016 * safezoneH + safezoneY;
+	w = 0.520781 * safezoneW;
+	h = 0.968 * safezoneH;
+	moving = 1;
+};
+class edit: RscEditLCD
+{
+	moving = 1;
+	idc = IDC_TRC9110_EDIT;
+	x = 0.298906 * safezoneW + safezoneX;
+	y = 0.236 * safezoneH + safezoneY;
+	w = 0.04125 * safezoneW;
+	h = 0.044 * safezoneH;
+	font = "tf_font_dots";
+	shadow = 2;
+	sizeEx = 0.05;
+	tooltip = $STR_current_freq;
+	canModify = 1;
+};
+class channel_edit: RscEditLCD
+{
+	moving = 1;
+	idc = IDC_TRC9110_CHANNEL_EDIT;
+	x = 0.2525 * safezoneW + safezoneX;
+	y = 0.236 * safezoneH + safezoneY;
+	w = 0.0464063 * safezoneW;
+	h = 0.044 * safezoneH;
+	font = "tf_font_dots";
+	shadow = 2;
+	sizeEx = 0.05;
+	tooltip = $STR_current_channel;
+	canModify = 0;
+};
+class clear: HiddenButton
+{
+	idc = IDC_TRC9110_CLEAR;
+	x = 0.242187 * safezoneW + safezoneX;
+	y = 0.786 * safezoneH + safezoneY;
+	w = 0.0309375 * safezoneW;
+	h = 0.033 * safezoneH;
+	tooltip = $STR_clear_frequency;
+	action = "ctrlSetText [1400, '']; ctrlSetFocus ((findDisplay 1766) displayCtrl 1400);";
+};
+class prev_channel: HiddenButton
+{
+	idc = IDC_TRC9110_PREV_CHANNEL;
+	x = 0.247344 * safezoneW + safezoneX;
+	y = 0.599 * safezoneH + safezoneY;
+	w = 0.0309375 * safezoneW;
+	h = 0.033 * safezoneH;
+	tooltip = $STR_previous_channel;
+	action = "[TF_sw_dialog_radio, ((TF_sw_dialog_radio call TFAR_fnc_getSwChannel) + 1) mod TF_MAX_CHANNELS] call TFAR_fnc_setSwChannel; call TFAR_fnc_updateSWDialogToChannel;[TF_sw_dialog_radio, false] call TFAR_fnc_ShowRadioInfo;";
+};
+class next_channel: HiddenButton
+{
+	idc = IDC_TRC9110_NEXT_CHANNEL;
+	x = 0.319531 * safezoneW + safezoneX;
+	y = 0.599 * safezoneH + safezoneY;
+	w = 0.0309375 * safezoneW;
+	h = 0.033 * safezoneH;
+	tooltip = $STR_next_channel;
+	action = "[TF_sw_dialog_radio, ((TF_sw_dialog_radio call TFAR_fnc_getSwChannel) - 1 + TF_MAX_CHANNELS) mod TF_MAX_CHANNELS] call TFAR_fnc_setSwChannel; call TFAR_fnc_updateSWDialogToChannel;[TF_sw_dialog_radio, false] call TFAR_fnc_ShowRadioInfo;";
+};
+class enter: HiddenButton
+{
+	idc = IDC_TRC9110_ENTER;
+	x = 0.319531 * safezoneW + safezoneX;
+	y = 0.555 * safezoneH + safezoneY;
+	w = 0.0309375 * safezoneW;
+	h = 0.033 * safezoneH;
+	tooltip = $STR_set_frequency;
+	action = "_f = parseNumber(ctrlText 1400);  if ((_f >= TF_MIN_SW_FREQ) and (_f <= TF_MAX_SW_FREQ)) then {[TF_sw_dialog_radio, str (round (_f * TF_FREQ_ROUND_POWER) / TF_FREQ_ROUND_POWER)] call TFAR_fnc_setSwFrequency; call TFAR_fnc_hideHint;} else {hint formatText [localize 'STR_incorrect_frequency', TF_MIN_SW_FREQ, TF_MAX_SW_FREQ]}; call TFAR_fnc_updateSWDialogToChannel;";
+};
+/*
+class channel01: HiddenButton
+{
+	idc = IDC_TRC9110_CHANNEL_01;
+	x = 0.242187 * safezoneW + safezoneX;
+	y = 0.643 * safezoneH + safezoneY;
+	w = 0.0309375 * safezoneW;
+	h = 0.044 * safezoneH;
+	action = "[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1, 0] call TFAR_fnc_setLrChannel;call TFAR_fnc_updateLRDialogToChannel;[TF_lr_dialog_radio, true] call TFAR_fnc_ShowRadioInfo;";
+	tooltip = $STR_radio_channel_1;
+};
+class channel02: HiddenButton
+{
+	idc = IDC_TRC9110_CHANNEL_02;
+	x = 0.283437 * safezoneW + safezoneX;
+	y = 0.643 * safezoneH + safezoneY;
+	w = 0.0309375 * safezoneW;
+	h = 0.044 * safezoneH;
+	action = "[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1, 1] call TFAR_fnc_setLrChannel; call TFAR_fnc_updateLRDialogToChannel;[TF_lr_dialog_radio, true] call TFAR_fnc_ShowRadioInfo;";
+	tooltip = $STR_radio_channel_2;
+};
+class channel03: HiddenButton
+{
+	idc = IDC_TRC9110_CHANNEL_03;
+	x = 0.319531 * safezoneW + safezoneX;
+	y = 0.643 * safezoneH + safezoneY;
+	w = 0.0309375 * safezoneW;
+	h = 0.044 * safezoneH;
+	action = "[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1, 2] call TFAR_fnc_setLrChannel; call TFAR_fnc_updateLRDialogToChannel;[TF_lr_dialog_radio, true] call TFAR_fnc_ShowRadioInfo;";
+	tooltip = $STR_radio_channel_3;
+};
+class channel04: HiddenButton
+{
+	idc = IDC_TRC9110_CHANNEL_04;
+	x = 0.242187 * safezoneW + safezoneX;
+	y = 0.687 * safezoneH + safezoneY;
+	w = 0.0309375 * safezoneW;
+	h = 0.044 * safezoneH;
+	action = "[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1, 3] call TFAR_fnc_setLrChannel; call TFAR_fnc_updateLRDialogToChannel;[TF_lr_dialog_radio, true] call TFAR_fnc_ShowRadioInfo;";
+	tooltip = $STR_radio_channel_4;
+};
+class channel05: HiddenButton
+{
+	idc = IDC_TRC9110_CHANNEL_05;
+	x = 0.283437 * safezoneW + safezoneX;
+	y = 0.687 * safezoneH + safezoneY;
+	w = 0.0309375 * safezoneW;
+	h = 0.044 * safezoneH;
+	action = "[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1, 4] call TFAR_fnc_setLrChannel; call TFAR_fnc_updateLRDialogToChannel;[TF_lr_dialog_radio, true] call TFAR_fnc_ShowRadioInfo;";
+	tooltip = $STR_radio_channel_5;
+};
+class channel06: HiddenButton
+{
+	idc = IDC_TRC9110_CHANNEL_06;
+	x = 0.319531 * safezoneW + safezoneX;
+	y = 0.687 * safezoneH + safezoneY;
+	w = 0.0309375  * safezoneW;
+	h = 0.044 * safezoneH;
+	action = "[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1, 5] call TFAR_fnc_setLrChannel; call TFAR_fnc_updateLRDialogToChannel;[TF_lr_dialog_radio, true] call TFAR_fnc_ShowRadioInfo;";
+	tooltip = $STR_radio_channel_6;
+};
+class channel07: HiddenButton
+{
+	idc = IDC_TRC9110_CHANNEL_07;
+	x = 0.242187 * safezoneW + safezoneX;
+	y = 0.731 * safezoneH + safezoneY;
+	w = 0.0309375 * safezoneW;
+	h = 0.044 * safezoneH;
+	action = "[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1, 6] call TFAR_fnc_setLrChannel; call TFAR_fnc_updateLRDialogToChannel;[TF_lr_dialog_radio, true] call TFAR_fnc_ShowRadioInfo;";
+	tooltip = $STR_radio_channel_7;
+};
+class channel08: HiddenButton
+{
+	idc = IDC_TRC9110_CHANNEL_08;
+	x = 0.283437 * safezoneW + safezoneX;
+	y = 0.731 * safezoneH + safezoneY;
+	w = 0.0309375 * safezoneW;
+	h = 0.044 * safezoneH;
+	action = "[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1, 7] call TFAR_fnc_setLrChannel; call TFAR_fnc_updateLRDialogToChannel;[TF_lr_dialog_radio, true] call TFAR_fnc_ShowRadioInfo;";
+	tooltip = $STR_radio_channel_8;
+};
+class channel09: HiddenButton
+{
+	idc = IDC_TRC9110_CHANNEL_09;
+	x = 0.319531 * safezoneW + safezoneX;
+	y = 0.731 * safezoneH + safezoneY;
+	w = 0.0309375 * safezoneW;
+	h = 0.044 * safezoneH;
+	action = "[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1, 8] call TFAR_fnc_setLrChannel; call TFAR_fnc_updateLRDialogToChannel;[TF_lr_dialog_radio, true] call TFAR_fnc_ShowRadioInfo;";
+	tooltip = $STR_radio_channel_9;
+};
+*/
+class increase_volume: HiddenButton
+{
+	idc = IDC_TRC9110_INCREASE_VOLUME;
+	x = 0.298906 * safezoneW + safezoneX;
+	y = 0.016 * safezoneH + safezoneY;
+	w = 0.020625 * safezoneW;
+	h = 0.044 * safezoneH;
+	action = "[TF_sw_dialog_radio, ((TF_sw_dialog_radio call TFAR_fnc_getSwVolume) + 1) mod TF_MAX_SW_VOLUME] call TFAR_fnc_setSwVolume;[TF_sw_dialog_radio] call TFAR_fnc_ShowRadioVolume;";
+	tooltip = $STR_increase_volume;
+};
+class decrease_volume: HiddenButton
+{
+	idc = IDC_TRC9110_DECREASE_VOLUME;
+	x = 0.273125 * safezoneW + safezoneX;
+	y = 0.016 * safezoneH + safezoneY;
+	w = 0.020625 * safezoneW;
+	h = 0.044 * safezoneH;
+	action = "[TF_sw_dialog_radio, ((TF_sw_dialog_radio call TFAR_fnc_getSwVolume) - 1 + TF_MAX_SW_VOLUME) mod TF_MAX_SW_VOLUME] call TFAR_fnc_setSwVolume;[TF_sw_dialog_radio] call TFAR_fnc_ShowRadioVolume;";
+	tooltip = $STR_decrease_volume;
+};
+class stereo: HiddenButton
+{
+	idc = IDC_TRC9110_STEREO;
+	x = 0.283437 * safezoneW + safezoneX;
+	y = 0.786 * safezoneH + safezoneY;
+	w = 0.0309375 * safezoneW;
+	h = 0.033 * safezoneH;
+	action = "[TF_sw_dialog_radio, ((TF_sw_dialog_radio call TFAR_fnc_getCurrentSwStereo) + 1) mod TF_MAX_STEREO] call TFAR_fnc_setSwStereo;[TF_sw_dialog_radio] call TFAR_fnc_ShowRadioVolume;";
+	tooltip = $STR_stereo_settings;
+};
+class additional: HiddenButton
+{
+	idc = IDC_TRC9110_ADDITIONAL;
+	x = 0.319531 * safezoneW + safezoneX;
+	y = 0.786 * safezoneH + safezoneY;
+	w = 0.0309375 * safezoneW;
+	h = 0.033 * safezoneH;
+	tooltip = $STR_set_additional;
+	action = "[TF_sw_dialog_radio, TF_sw_dialog_radio call TFAR_fnc_getSwChannel] call TFAR_fnc_setAdditionalSwChannel; call TFAR_fnc_updateSWDialogToChannel; [TF_sw_dialog_radio, false] call TFAR_fnc_ShowRadioInfo;";
+};
+////////////////////////////////////////////////////////
+// GUI EDITOR OUTPUT END
+////////////////////////////////////////////////////////
+};

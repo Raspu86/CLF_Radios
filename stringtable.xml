@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ID="Arma2">
+	<Package ID="Missions">
+		<Container ID="A3RU_MissionInformation">
+			<Key ID="STR_different_version">
+				<Original>
+					Different version of Task Force Radio are used. Server version: %1, Your version: %2
+				</Original>
+				<Russian>
+					Несовпадение версий Task Force Radio. Версия на сервере: %1, Ваша версия: %2
+				</Russian>
+				<French>
+					Différentes versions de Task Force Radio sont utilisées. Version du serveur : %1, Votre version : %2
+				</French>
+				<Italian>
+					Versioni differenti di Task Force Radio utilizzate. Versione del server : %1, La tua versione : %2
+				</Italian>
+				<Spanish>
+					Estas usando diferentes versiones de Task Force Radio. Versión del servidor : %1, Tu versión : %2
+				</Spanish>
+				<German>
+					Es werden verschiedene Versionen von Task Force Radio verwendet. Server version: %1, deine Version: %2
+				</German>
+			</Key>
+			<Key ID="STR_stereo_settings">
+				<Original>
+					Stereo settings
+				</Original>
+				<Russian>
+					Настройки стерео
+				</Russian>
+				<French>
+					Configurations stéréo
+				</French>
+				<Italian>
+					Configurazione stereo
+				</Italian>	
+				<Spanish>
+					Configuración de stereo
+				</Spanish>		
+				<German>
+					Stereo Einstellungen
+				</German>
+			</Key>
+			<Key ID="STR_stereo_settings_2ndCh">
+				<Original>
+					Additional channel: Stereo settings
+				</Original>
+				<Russian>
+					Настройки стерео
+				</Russian>
+				<French>
+					Configurations stéréo
+				</French>
+				<Italian>
+					Configurazione stereo
+				</Italian>	
+				<Spanish>
+					Configuración de stereo
+				</Spanish>		
+				<German>
+					Zusätzlicher Kanal: Stereo Einstellungen 
+				</German>
+			</Key>
+			<Key ID="STR_stereo_settings_0">
+				<Original>
+					Left and right
+				</Original>
+				<Russian>
+					Левый и правый
+				</Russian>
+				<French>
+					Gauche et droite
+				</French>
+				<Italian>
+					Sinistra e destra
+				</Italian>
+				<Spanish>
+					Izquierda y derecha
+				</Spanish>			
+				<German>
+					Links und rechts
+				</German>	
+			</Key>
+			<Key ID="STR_stereo_settings_1">
+				<Original>
+					Left only
+				</Original>
+				<Russian>
+					Только левый
+				</Russian>
+				<French>
+					Gauche seulement
+				</French>
+				<Italian>
+					Solo sinistra
+				</Italian>
+				<Spanish>
+					Izquierda solo
+				</Spanish>		
+				<German>
+					Nur links
+				</German>				
+			</Key>
+			<Key ID="STR_stereo_settings_2">
+				<Original>
+					Right only
+				</Original>
+				<Russian>
+					Только правый
+				</Russian>
+				<French>
+					Droite seulement
+				</French>
+				<Italian>
+					Solo destra
+				</Italian>
+				<Spanish>
+					Derecha solo
+				</Spanish>	
+				<German>
+					Nur rechts
+				</German>					
+			</Key>
+			<Key ID="STR_additional_stereo_settings_0">
+				<Original>
+					Additional: Left and right
+				</Original>
+				<Russian>
+					Дополнительный: Левый и правый
+				</Russian>
+				<French>
+					Supplémentaire: Gauche et droite
+				</French>
+				<Italian>
+					Addizionale: Sinistra e destra
+				</Italian>
+				<Spanish>
+					Adicional: Izquierda y derecha
+				</Spanish>		
+				<German>
+					Zusätzlich: Links und rechts
+				</German>	
+			</Key>
+			<Key ID="STR_additional_stereo_settings_1">
+				<Original>
+					Additional: Left only
+				</Original>
+				<Russian>
+					Дополнительный: Только левый
+				</Russian>
+				<French>
+					Supplémentaire: Gauche seulement
+				</French>
+				<Italian>
+					Addizionale: Solo sinistra
+				</Italian>
+				<Spanish>
+					Adicional: Izquierda solo
+				</Spanish>
+				<German>
+					Zusätzlich: Nur links
+				</German>				
+			</Key>
+			<Key ID="STR_additional_stereo_settings_2">
+				<Original>
+					Additional: Right only
+				</Original>
+				<Russian>
+					Дополнительный: Только правый
+				</Russian>
+				<French>
+					Supplémentaire: Droite seulement
+				</French>
+				<Italian>
+					Addizionale: Solo destra
+				</Italian>
+				<Spanish>
+					Adicional: Derecha solo
+				</Spanish>				
+				<German>
+					Zusätzlich: Nur rechts
+				</German>	
+			</Key>
+			<Key ID="STR_no_server">
+				<Original>
+					No Task Force Radio deployed on server!
+				</Original>
+				<Russian>
+					Не обнаружена серверная часть Task Force Radio!
+				</Russian>
+				<French>
+					Il n'y a pas de Task Force Radio déployé sur le serveur !
+				</French>
+				<Italian>
+					Task Force Radio non è in esecuzione sul server!
+				</Italian>
+				<Spanish>
+					¡El servidor no dispone de Task Force Radio!
+				</Spanish>		
+				<German>
+					Task Force Radio wird nicht auf dem Server ausgeführt!
+				</German>			
+			</Key>
+			<Key ID="STR_current_freq">
+				<Original>
+					Current frequency
+				</Original>
+				<Russian>
+					Текущая частота
+				</Russian>
+				<French>
+					Fréquence actuelle
+				</French>
+				<Italian>
+					Frequenza attuale
+				</Italian>	
+				<Spanish>
+					Frecuencia actual
+				</Spanish>			
+				<German>
+					Derzeitige Frequenz
+				</German>	
+			</Key>
+			<Key ID="STR_current_channel">
+				<Original>
+					Current channel
+				</Original>
+				<Russian>
+					Текущий канал
+				</Russian>
+				<French>
+					Canal actuel
+				</French>
+				<Italian>
+					Canale attuale
+				</Italian>
+				<Spanish>
+					Canal actual
+				</Spanish>		
+				<German>
+					Derzeitiger Kanal
+				</German>				
+			</Key>
+			<Key ID="STR_set_frequency">
+				<Original>
+					Set frequency
+				</Original>
+				<Russian>
+					Установить частоту
+				</Russian>
+				<French>
+					Valider la fréquence
+				</French>
+				<Italian>
+					Imposta frequenza
+				</Italian>
+				<Spanish>
+					Establecer frecuencia
+				</Spanish>	
+				<German>
+					Frequenz festlegen
+				</German>					
+			</Key>
+			<Key ID="STR_set_additional">
+				<Original>
+					Set additional channel
+				</Original>
+				<Russian>
+					Настроить дополнительный канал 
+				</Russian>
+				<French>
+					Canal supplémentaire prévue					
+				</French>
+				<Italian>
+					Impostare canale aggiuntivo
+				</Italian>
+				<Spanish>
+					Ajuste el canal adicional
+				</Spanish>		
+				<German>
+					Zusätzlichen Kanal festlegen
+				</German>				
+			</Key>
+			<Key ID="STR_clear_frequency">
+				<Original>
+					Clear frequency
+				</Original>
+				<Russian>
+					Стереть частоту
+				</Russian>
+				<French>
+					Effacer la fréquence
+				</French>
+				<Italian>
+					Cancella frequenza
+				</Italian>
+				<Spanish>
+					Reiniciar frecuencia
+				</Spanish>			
+				<German>
+					Frequenz löschen
+				</German>		
+			</Key>
+			<Key ID="STR_previous_channel">
+				<Original>
+					Previous channel
+				</Original>
+				<Russian>
+					Предыдущий канал
+				</Russian>
+				<French>
+					Canal précédent
+				</French>
+				<Italian>
+					Canale precedente
+				</Italian>
+				<Spanish>
+					Canal anterior
+				</Spanish>		
+				<German>
+					Vorheriger Kanal
+				</German>			
+			</Key>
+			<Key ID="STR_next_channel">
+				<Original>
+					Next channel
+				</Original>
+				<Russian>
+					Следующий канал
+				</Russian>
+				<French>
+					Canal suivant
+				</French>
+				<Italian>
+					Canale successivo
+				</Italian>
+				<Spanish>
+					Canal siguiente
+				</Spanish>	
+				<German>
+					Nächster Kanal
+				</German>				
+			</Key>
+			<Key ID="STR_increase_volume">
+				<Original>
+					Increase volume
+				</Original>
+				<Russian>
+					Увеличить громкость
+				</Russian>
+				<French>
+					Augmenter le volume
+				</French>
+				<Italian>
+					Aumenta volume
+				</Italian>
+				<Spanish>
+					Aumentar volumen
+				</Spanish>			
+				<German>
+					Lautstärke erhöhen
+				</German>		
+			</Key>
+			<Key ID="STR_decrease_volume">
+				<Original>
+					Decrease volume
+				</Original>
+				<Russian>
+					Уменьшить громкость
+				</Russian>
+				<French>
+					Réduire le volume
+				</French>
+				<Italian>
+					Diminuisce volume
+				</Italian>
+				<Spanish>
+					Reducir volumen
+				</Spanish>		
+				<German>
+					Lautstärke verringern
+				</German>			
+			</Key>
+			<Key ID="STR_volume">
+				<Original>
+					Change volume
+				</Original>
+				<Russian>
+					Настроить громкость
+				</Russian>
+				<French>
+					Changer le volume
+				</French>
+				<Italian>
+					Cambia il volume
+				</Italian>
+				<Spanish>
+					Cambiar volumen
+				</Spanish>		
+				<German>
+					Lautstärke anpassen
+				</German>			
+			</Key>
+			<Key ID="STR_incorrect_frequency">
+				<Original>
+					Incorrect frequency value, range is %1-%2
+				</Original>
+				<Russian>
+					Неверная частота, диапазон %1-%2
+				</Russian>
+				<French>
+					Valeur de fréquence incorrecte, la plage est de %1-%2
+				</French>
+				<Italian>
+					Campo di frequenza non corretto; Campi possibili sono %1-%2
+				</Italian>
+				<Spanish>
+					Frecuencia incorrecta, el rango es %1-%2
+				</Spanish>		
+				<German>
+					Falsche Frequenz, Frequenzbereich ist %1-%2
+				</German>	
+			</Key>
+			<Key ID="STR_radio_volume">
+				<Original>
+					Volume: %1
+				</Original>
+				<Russian>
+					Громкость: %1
+				</Russian>
+				<French>
+					Volume: %1
+				</French>
+				<Italian>
+					Volume: %1
+				</Italian>
+				<Spanish>
+					Volumen: %1
+				</Spanish>	
+				<German>
+					Lautstärke: %1
+				</German>
+			</Key>
+			<Key ID="STR_radio_channel_1">
+				<Original>
+					Channel 1
+				</Original>
+				<Russian>
+					Канал 1
+				</Russian>
+				<French>
+					Canal 1
+				</French>
+				<Italian>
+					Canale 1
+				</Italian>
+				<Spanish>
+					Canal 1
+				</Spanish>	
+				<German>
+					Kanal 1
+				</German>
+			</Key>
+			<Key ID="STR_radio_channel_2">
+				<Original>
+					Channel 2
+				</Original>
+				<Russian>
+					Канал 2
+				</Russian>
+				<French>
+					Canal 2
+				</French>
+				<Italian>
+					Canale 2
+				</Italian>
+				<Spanish>
+					Canal 2
+				</Spanish>	
+				<German>
+					Kanal 2
+				</German>
+			</Key>
+			<Key ID="STR_radio_channel_3">
+				<Original>
+					Channel 3
+				</Original>
+				<Russian>
+					Канал 3
+				</Russian>
+				<French>
+					Canal 3
+				</French>
+				<Italian>
+					Canale 3
+				</Italian>
+				<Spanish>
+					Canal 3
+				</Spanish>	
+				<German>
+					Kanal 3
+				</German>
+			</Key>
+			<Key ID="STR_radio_channel_4">
+				<Original>
+					Channel 4
+				</Original>
+				<Russian>
+					Канал 4
+				</Russian>
+				<French>
+					Canal 4
+				</French>
+				<Italian>
+					Canale 4
+				</Italian>
+				<Spanish>
+					Canal 4
+				</Spanish>	
+				<German>
+					Kanal 4
+				</German>
+			</Key>
+			<Key ID="STR_radio_channel_5">
+				<Original>
+					Channel 5
+				</Original>
+				<Russian>
+					Канал 5
+				</Russian>
+				<French>
+					Canal 5
+				</French>
+				<Italian>
+					Canale 5
+				</Italian>
+				<Spanish>
+					Canal 5
+				</Spanish>	
+				<German>
+					Kanal 5
+				</German>
+			</Key>
+			<Key ID="STR_radio_channel_6">
+				<Original>
+					Channel 6
+				</Original>
+				<Russian>
+					Канал 6
+				</Russian>
+				<French>
+					Canal 6
+				</French>
+				<Italian>
+					Canale 6
+				</Italian>
+				<Spanish>
+					Canal 6
+				</Spanish>	
+				<German>
+					Kanal 6
+				</German>
+			</Key>
+			<Key ID="STR_radio_channel_7">
+				<Original>
+					Channel 7
+				</Original>
+				<Russian>
+					Канал 7
+				</Russian>
+				<French>
+					Canal 7
+				</French>
+				<Italian>
+					Canale 7
+				</Italian>
+				<Spanish>
+					Canal 7
+				</Spanish>
+				<German>
+					Kanal 7
+				</German>
+			</Key>
+			<Key ID="STR_radio_channel_8">
+				<Original>
+					Channel 8
+				</Original>
+				<Russian>
+					Канал 8
+				</Russian>
+				<French>
+					Canal 8
+				</French>
+				<Italian>
+					Canale 8
+				</Italian>
+				<Spanish>
+					Canal 8
+				</Spanish>
+				<German>
+					Kanal 8
+				</German>	
+			</Key>
+			<Key ID="STR_radio_channel_9">
+				<Original>
+					Channel 9
+				</Original>
+				<Russian>
+					Канал 9
+				</Russian>
+				<French>
+					Canal 9
+				</French>
+				<Italian>
+					Canale 9
+				</Italian>
+				<Spanish>
+					Canal 9
+				</Spanish>	
+				<German>
+					Kanal 9
+				</German>
+			</Key>
+			<Key ID="STR_depth">
+				<Original>
+					Current depth
+				</Original>
+				<Russian>
+					Текущая глубина
+				</Russian>
+				<French>
+					Current depth
+				</French>
+				<Italian>
+					Profondità attuale
+				</Italian>
+				<Spanish>
+					Profundidad actual
+				</Spanish>	
+				<German>
+					Derzeitige Tiefe
+				</German>
+			</Key>
+			<Key ID="STR_active_sw_channel">
+				<Original>
+					Channel: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Original>
+				<Russian>
+					Канал: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Russian>
+				<French>
+					Canal courte portée: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</French>
+				<Italian>
+					Canale onde corte: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Italian>
+				<Spanish>
+					Canal onda corta:  &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Spanish>	
+				<German>
+					Kanal: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</German>
+			</Key>
+			<Key ID="STR_active_additional_sw_channel">
+				<Original>
+					Additional channel: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Original>
+				<Russian>
+					Дополнительный канал: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Russian>
+				<French>
+					Canal supplémentaire: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</French>
+				<Italian>
+					Canale aggiuntivo: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Italian>
+				<Spanish>
+					Canal adicional:  &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Spanish>	
+				<German>
+					Zusätzlicher Kanal: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</German>
+			</Key>
+			<Key ID="STR_active_frequency">
+				<Original>
+					Frequency: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Original>
+				<Russian>
+					Частота: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Russian>
+				<French>
+					Fréquence: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</French>
+				<Italian>
+					Frequenza: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Italian>
+				<Spanish>
+					Frecuencia:  &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Spanish>
+				<German>
+					Frequenz: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</German>
+			</Key>
+			<Key ID="STR_active_lr_channel">
+				<Original>
+					LR channel: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Original>
+				<Russian>
+					Kанал ДС: &lt;t color=&apos;#ff00ff&apos;&gt;%1&lt;/t&gt;
+				</Russian>
+				<French>
+					Canal LP: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</French>
+				<Italian>
+					Canale OL: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Italian>
+				<Spanish>
+					Canal RL:  &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Spanish>
+				<German>
+					LS Kanal: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</German>
+			</Key>
+			<Key ID="STR_active_additional_lr_channel">
+				<Original>
+					Additional LR channel: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Original>
+				<Russian>
+					Дополнительный канал ДС: &lt;t color=&apos;#ff00ff&apos;&gt;%1&lt;/t&gt;
+				</Russian>
+				<French>
+					Canal supplémentaire LP: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</French>
+				<Italian>
+					Canale aggiuntivo OL: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Italian>
+				<Spanish>
+					Canal adicional RL:  &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</Spanish>	
+				<German>
+					Zusätzlicher LS Kanal: &lt;t color=&apos;#ffff00&apos;&gt;%1&lt;/t&gt;
+				</German>
+			</Key>
+			<Key ID="STR_in_water_hint">
+				<Original>
+					&lt;t color=&apos;#33ccff&apos;&gt;Can&apos;t use radio under WATER&lt;/t&gt;
+				</Original>
+				<Russian>
+					&lt;t color=&apos;#33ccff&apos;&gt;Нельзя использовать данную рацию под водой&lt;/t&gt;
+				</Russian>
+				<French>
+					&lt;t color=&apos;#33ccff&apos;&gt;Vous ne pouvez pas utiliser de radio sous l'eau !&lt;/t&gt;
+				</French>
+				<Italian>
+					&lt;t color=&apos;#33ccff&apos;&gt;Non puoi usare la radio sott'acqua&lt;/t&gt;
+				</Italian>
+				<Spanish>
+					&lt;t color=&apos;#33ccff&apos;&gt;No puedes utilizar radios bajo el agua&lt;/t&gt;
+				</Spanish>	
+				<German>
+					&lt;t color=&apos;#33ccff&apos;&gt;Das Funkgerät kann unter Wasser nicht verwendet werden&lt;/t&gt;
+				</German>
+			</Key>
+			<Key ID="STR_on_ground_hint">
+				<Original>
+					&lt;t color=&apos;#993300&apos;&gt;Can&apos;t use driver radio on the air&lt;/t&gt;
+				</Original>
+				<Russian>
+					&lt;t color=&apos;#993300&apos;&gt;Нельзя использовать данную рацию в воздушной среде&lt;/t&gt;
+				</Russian>
+				<French>
+					&lt;t color=&apos;#993300&apos;&gt;Vous ne pouvez pas utiliser la radio du véhicule dans les airs !&lt;/t&gt;
+				</French>
+				<Italian>
+					&lt;t color=&apos;#993300&apos;&gt;Non puoi usare la radio del veicolo in aria!&lt;/t&gt;
+				</Italian>
+				<Spanish>
+					&lt;t color=&apos;#993300&apos;&gt;No puedes utilizar la radio del conductor en el aire&lt;/t&gt;
+				</Spanish>
+				<German>
+					&lt;t color=&apos;#993300&apos;&gt; Fahrzeugfunk kann nicht in der Luft verwendet werden&lt;/t&gt;
+				</German>
+			</Key>
+			<Key ID="STR_unable_to_use_hint">
+				<Original>
+					&lt;t color=&apos;#FF0000&apos;&gt;you are not able to use the radio&lt;/t&gt;
+				</Original>
+				<Russian>
+					&lt;t color=&apos;#FF0000&apos;&gt;Вы не способны пользоваться рацией&lt;/t&gt;
+				</Russian>
+				<French>
+					&lt;t color=&apos;#FF0000&apos;&gt;Vous n'êtes pas en mesure d'utiliser le radio&lt;/t&gt;
+				</French>
+				<Italian>
+					&lt;t color=&apos;#FF0000&apos;&gt;Non sono in grado di utilizzare il radio&lt;/t&gt;
+				</Italian>
+				<Spanish>
+					&lt;t color=&apos;#FF0000&apos;&gt;Incapaz de usar la radio&lt;/t&gt;
+				</Spanish>
+				<German>
+					&lt;t color=&apos;#FF0000&apos;&gt;Funkgerät kann nicht benutzt werden&lt;/t&gt;
+				</German>
+			</Key>
+			<Key ID="STR_select_action">
+				<Original>
+					Select action
+				</Original>
+				<Russian>
+					Выберите действие
+				</Russian>
+				<French>
+					Sélectionner l'action
+				</French>
+				<Italian>
+					Seleziona l'azione
+				</Italian>
+				<Spanish>
+					Selecciona acción
+				</Spanish>
+				<German>
+					Aktion wählen
+				</German>
+			</Key>
+			<Key ID="STR_select_action_setup">
+				<Original>
+					Settings...
+				</Original>
+				<Russian>
+					Настройки...
+				</Russian>
+				<French>
+					Options
+				</French>
+				<Italian>
+					Opzioni
+				</Italian>
+				<Spanish>
+					Configuración
+				</Spanish>
+				<German>
+					Tastenbelegung
+				</German>
+			</Key>
+			<Key ID="STR_select_action_setup_tooltip">
+				<Original>
+					Open settings dialog
+				</Original>
+				<Russian>
+					Открыть диалог настройки
+				</Russian>
+				<French>
+					Ouvrir la fenêtre des options
+				</French>
+				<Italian>
+					Apri finestra opzioni
+				</Italian>
+				<Spanish>
+					Abrir ventana de configuración
+				</Spanish>
+				<German>
+					Einstellungen öffnen
+				</German>
+			</Key>
+			<Key ID="STR_select_action_use">
+				<Original>
+					Set as active
+				</Original>
+				<Russian>
+					Сделать активной
+				</Russian>
+				<French>
+					Mettre dans le slot de radio
+				</French>
+				<Italian>
+					Seleziona come in uso
+				</Italian>
+				<Spanish>
+					Seleccionar como activa
+				</Spanish>
+				<German>
+					Als aktiv setzen
+				</German>
+			</Key>
+			<Key ID="STR_select_action_use_tooltip">
+				<Original>
+					Use for transmiting
+				</Original>
+				<Russian>
+					Использовать для передачи
+				</Russian>
+				<French>
+					Choisir comme radio active
+				</French>
+				<Italian>
+					Usa come radio per trasmissioni
+				</Italian>
+				<Spanish>
+					Usar para transmitir
+				</Spanish>
+				<German>
+					Zum Senden wählen
+				</German>
+			</Key>
+			<Key ID="STR_select_radio">
+				<Original>
+					Select short range radio
+				</Original>
+				<Russian>
+					Выберите рацию ближней связи
+				</Russian>
+				<French>
+					Selectionner la radio courte portée
+				</French>
+				<Italian>
+					Seleziona radio onde corte
+				</Italian>
+				<Spanish>
+					Seleccionar radio de corto alcance
+				</Spanish>
+				<German>
+					Kurzstreckenfunkgerät wählen
+				</German>
+			</Key>
+			<Key ID="STR_select_lr_radio">
+				<Original>
+					Select long range radio
+				</Original>
+				<Russian>
+					Выберите рацию дальней связи
+				</Russian>
+				<French>
+					Selectionner la radio longue portée
+				</French>
+				<Italian>
+					Seleziona radio onde lunghe
+				</Italian>
+				<Spanish>
+					Seleccionar radio de largo alcance
+				</Spanish>
+				<German>
+					Langstreckenfungerät wählen
+				</German>
+			</Key>			
+			<Key ID="STR_transmit">
+				<Original>
+					&lt;t size='1' align='center' color='#00FF00'&gt;Transmitting&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Channel: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt;
+				</Original>
+				<Russian>
+					&lt;t size='1' align='center' color='#00FF00'&gt;Передача&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Рация: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Канал: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Частота: %3&lt;/t&gt;				
+				</Russian>
+				<French>
+					&lt;t size='1' align='center' color='#00FF00'&gt;Transmission&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Canal: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Fréquence: %3&lt;/t&gt;
+				</French>
+				<Italian>
+					&lt;t size='1' align='center' color='#00FF00'&gt;Trasmettendo&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Canale: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt;					
+				</Italian>
+				<Spanish>
+					&lt;t size='1' align='center' color='#00FF00'&gt;Transmitiendo&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Canal: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt;					
+				</Spanish>
+				<German>
+					&lt;t size='1' align='center' color='#00FF00'&gt;Sende&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Funkgerät: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Kanal: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt;
+				</German>
+			</Key>
+			<Key ID="STR_transmit_end">
+				<Original>
+					&lt;t size='1' align='center' color='#FF9900'&gt;Transmitted&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Channel: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt;						
+				</Original>
+				<Russian>
+					&lt;t size='1' align='center' color='#FF9900'&gt;Передано&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Рация: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Канал: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Частота: %3&lt;/t&gt;									
+				</Russian>
+				<French>
+					&lt;t size='1' align='center' color='#FF9900'&gt;Transmis avec&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Canal: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Fréquence: %3&lt;/t&gt;					
+				</French>
+				<Italian>
+					&lt;t size='1' align='center' color='#FF9900'&gt;Trasmesso con&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Canale: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt;										
+				</Italian>
+				<Spanish>
+					&lt;t size='1' align='center' color='#FF9900'&gt;Transmitido con&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Canal: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt;					
+				</Spanish>
+				<German>
+					&lt;t size='1' align='center' color='#FF9900'&gt;Gesendet&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Funkgerät: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Kanal: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt;	
+				</German>
+			</Key>
+			<Key ID="STR_additional_transmit">
+				<Original>
+					&lt;t size='1' align='center' color='#00FF00'&gt;Transmitting&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Additional channel: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt;
+				</Original>
+				<Russian>
+					&lt;t size='1' align='center' color='#00FF00'&gt;Передача&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Рация: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Дополнительный канал: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Частота: %3&lt;/t&gt;				
+				</Russian>
+				<French>
+					&lt;t size='1' align='center' color='#00FF00'&gt;Transmission&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Canal supplémentaires: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Fréquence: %3&lt;/t&gt;
+				</French>
+				<Italian>
+					&lt;t size='1' align='center' color='#00FF00'&gt;Trasmettendo&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Canale aggiuntive: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt;					
+				</Italian>
+				<Spanish>
+					&lt;t size='1' align='center' color='#00FF00'&gt;Transmitiendo&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Canal adicional: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt;					
+				</Spanish>
+				<German>
+					&lt;t size='1' align='center' color='#00FF00'&gt;Sende&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Funkgerät: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Zusätzlicher Kanal: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt	
+				</German>
+			</Key>
+			<Key ID="STR_additional_transmit_end">
+				<Original>
+					&lt;t size='1' align='center' color='#FF9900'&gt;Transmitted&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Additional сhannel: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt;						
+				</Original>
+				<Russian>
+					&lt;t size='1' align='center' color='#FF9900'&gt;Передано&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Рация: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Дополнительный канал: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Частота: %3&lt;/t&gt;									
+				</Russian>
+				<French>
+					&lt;t size='1' align='center' color='#FF9900'&gt;Transmis avec&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Canal supplémentaires: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Fréquence: %3&lt;/t&gt;					
+				</French>
+				<Italian>
+					&lt;t size='1' align='center' color='#FF9900'&gt;Trasmesso con&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Canale aggiuntive: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt;										
+				</Italian>
+				<Spanish>
+					&lt;t size='1' align='center' color='#FF9900'&gt;Transmitido con&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Radio: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Canal adicional: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt;					
+				</Spanish>
+				<German>
+					&lt;t size='1' align='center' color='#FF9900'&gt;Gesendet&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Funkgerät: %1&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Zusätzlicher Kanal: %2&lt;/t&gt;&lt;br /&gt;&lt;t size='1' align='center'&gt;Freq: %3&lt;/t&gt;						
+				</German>
+			</Key>
+			<Key ID="STR_waiting">
+				<Original>
+					Waiting...
+				</Original>
+				<Russian>
+					Ожидание...
+				</Russian>
+				<French>
+					En attente...
+				</French>
+				<Italian>
+					In attesa...
+				</Italian>
+				<Spanish>
+					En espera...
+				</Spanish>
+				<German>
+					Warten...
+				</German>
+			</Key>
+			<Key ID="STR_voice_volume">
+				<Original>
+					&lt;t align='center' color=&apos;#66ff33&apos;&gt;Voice volume: %1&lt;/t&gt;
+				</Original>
+				<Russian>
+					&lt;t align='center' color=&apos;#66ff33&apos;&gt;Громкость голоса: %1&lt;/t&gt;
+				</Russian>
+				<French>
+					&lt;t align='center' color=&apos;#66ff33&apos;&gt;Volume de la voix : %1&lt;/t&gt;
+				</French>
+				<Italian>
+					&lt;t align='center' color=&apos;#66ff33&apos;&gt;Volume voce: %1&lt;/t&gt;
+				</Italian>
+				<Spanish>
+					&lt;t align='center' color=&apos;#66ff33&apos;&gt;Volumen de la voz: %1&lt;/t&gt;
+				</Spanish>
+				<German>
+					&lt;t align='center' color=&apos;#66ff33&apos;&gt;Lautstärke Stimme: %1&lt;/t&gt;
+				</German>
+
+			</Key>
+			<Key ID="STR_voice_normal">
+				<Original>
+					normal
+				</Original>
+				<Russian>
+					норма
+				</Russian>
+				<French>
+					Normal
+				</French>
+				<Italian>
+					Normale
+				</Italian>
+				<Spanish>
+					Normal
+				</Spanish>
+				<German>
+					Normal
+				</German>
+
+			</Key>
+			<Key ID="STR_voice_yelling">
+				<Original>
+					yelling
+				</Original>
+				<Russian>
+					крик
+				</Russian>
+				<French>
+					Forte
+				</French>
+				<Italian>
+					Gridare
+				</Italian>
+				<Spanish>
+					Gritar
+				</Spanish>
+				<German>
+					Laut
+				</German>
+			</Key>
+			<Key ID="STR_voice_whispering">
+				<Original>
+					whispering
+				</Original>
+				<Russian>
+					шепот
+				</Russian>
+				<French>
+					Faible
+				</French>
+				<Italian>
+					Bassa voce
+				</Italian>
+				<Spanish>
+					Susurrar
+				</Spanish>
+				<German>
+					Leise
+				</German>
+			</Key>
+			<Key ID="STR_init">
+				<Original>
+					Initialization...
+				</Original>
+				<Russian>
+					Инициализация...
+				</Russian>
+				<French>
+					Initialization...
+				</French>
+				<Italian>
+					Inizializzazione...
+				</Italian>
+				<Spanish>
+					Inicializando...
+				</Spanish>
+				<German>
+					Initialisiere...
+				</German>
+			</Key>
+			<Key ID="STR_subject_name">
+				<Original>
+					Radio
+				</Original>
+				<Russian>
+					Рации
+				</Russian>
+				<French>
+					Radio
+				</French>
+				<Italian>
+					Radio
+				</Italian>
+				<Spanish>
+					Radio
+				</Spanish>
+				<German>
+					Funkgerät
+				</German>
+			</Key>
+			<Key ID="STR_select_action_copy_settings_from">
+				<Original>
+					Copy settings from...
+				</Original>
+				<Russian>
+					Скопировать настройки из....
+				</Russian>
+				<French>
+					Copiez les réglages d'...
+				</French>
+				<Italian>
+					Copia impostazioni da...
+				</Italian>
+				<Spanish>
+					Para copiar los ajustes de...
+				</Spanish>
+				<German>
+					Einstellungen kopieren von...
+				</German>
+			</Key>
+			<Key ID="STR_select_action_settings_from_tooltip">
+				<Original>
+					Copy settings from another radio with same encryption code
+				</Original>
+				<Russian>
+					Скопировать настройки из другой рации с тем же кодом шифрования
+				</Russian>
+				<French>
+					Copiez les réglages d'une autre radio ayant le même code de cryptage
+				</French>
+				<Italian>
+					Copia impostazioni da un'altra radio con lo stesso codice di crittografia
+				</Italian>
+				<Spanish>
+					Para copiar los ajustes de otra radio con el mismo código de cifrado
+				</Spanish>
+				<German>
+					Einstellungen von einem anderen Funkgerät mit derselben Verschlüsselung kopieren
+				</German>
+			</Key>				
+			<Key ID="STR_radio_control">
+				<Original>
+					Controls
+				</Original>
+				<Russian>
+					Управление
+				</Russian>
+				<French>
+					Contrôles
+				</French>
+				<Italian>
+					Controlli
+				</Italian>
+				<Spanish>
+					Controles
+				</Spanish>
+				<German>
+					Einstellungen
+				</German>
+			</Key>
+			<Key ID="STR_wait_radio">
+				<Original>
+					Waiting for the unique radio from server...
+				</Original>
+				<Russian>
+					Ожидаем получение уникальной рации от сервера...
+				</Russian>
+				<French>
+					En attente de l'unique radio du serveur...
+				</French>
+				<Italian>
+					In attesa della radio unica dal server...
+				</Italian>
+				<Spanish>
+					Obteniendo una radio única del servidor...
+				</Spanish>
+				<German>
+					Warte auf einzigartiges Funkgerät vom Server...
+				</German>
+			</Key>
+
+
+			<Key ID="STR_radio_control_text">
+				<Original>
+&lt;font color=&quot;#67ED24&quot;&gt;Push-to-talk button in TeamSpeak&lt;/font&gt;	Direct Speech.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;Caps Lock&lt;/font&gt;	To talk on a radio.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;CTRL + Caps Lock&lt;/font&gt;	To talk on a long range radio.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;CTRL + P&lt;/font&gt;	To open the personal radio interface (the radio must be in the inventory slot). In that case if you have a number of radios - you can select the one needed. It is also possible to set the radio as active (the one that will be used for transmission).&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;CTRL + SHIFT + A/D&lt;/font&gt; Cycle through available shortwave radios.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;CTRL + Up/Left/Right Arrow&lt;/font&gt; Rapid switching of shortwave stereo mode.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;NUM[1-8]&lt;/font&gt;	Rapid switching of shortwave radio channels.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + P&lt;/font&gt;	To open a long range radio interface (a long range radio must be put on your back, or you should be in a vehicle in a position of a driver, shooter, or pilot assistant). If a number of radios are available – you’ll be offered to choose one. Besides, one of them can be set as active.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + SHIFT + A/D&lt;/font&gt; Cycle through available long range radios.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;ALT + Up/Left/Right Arrow&lt;/font&gt; Rapid switching of long range stereo mode.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;CTRL + NUM[1-9]&lt;/font&gt;	Rapid switching of long range radio channels.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + TAB&lt;/font&gt;	To change the direct speech volume. You can talk: Whispering, Normal or Yelling. Does not affect the signal volume in the radio transmission.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;SHIFT + P&lt;/font&gt;	To open an underwater transceiver interface (you should be wearing a rebreather).&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + Caps Lock&lt;/font&gt;	To talk on underwater transceiver.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + ]&lt;/font&gt;	Select next personal radio.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + [&lt;/font&gt;	Select previous personal radio.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + ALT + ]&lt;/font&gt;	Select next long range radio.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + ALT + [&lt;/font&gt;	Select previous long range radio.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + [←,↑,→]&lt;/font&gt;	Change personal radio stereo mode.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + [←,↑,→]&lt;/font&gt;	Change long range radio stereo mode.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;T&lt;/font&gt;	Transmit on additional channel of personal radio.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;Y&lt;/font&gt;	Transmit on additional channel of long range radio.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ESC&lt;/font&gt;	To exit from the radio interface.
+				</Original>
+				<Russian>
+&lt;font color=&quot;#67ED24&quot;&gt;Caps Lock&lt;/font&gt;	Разговор по рации.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + Caps Lock&lt;/font&gt;	Разговор по рации дальней связи.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + P&lt;/font&gt;	Открыть интерфейс личной рации (рация должна быть в слоте инвентаря). В том случае, если у вас имеются несколько раций - вы сможете выбрать требуемую. Также есть возможность установить рацию как активную (ту, которая будет использоваться для передачи.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;NUM[1-8]&lt;/font&gt;	Быстрое переключение каналов коротковолновой рации.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + P&lt;/font&gt;	Открыть интерфейс рации дальней связи (рация дальней связи должна быть одета на спину, либо вы должны быть в технике за водителя, стрелка, командира или помощника пилота). Если доступно несколько рации - вам будет предложено выбрать. Также одну из них можно установить как активную.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + NUM[1-9]&lt;/font&gt;	Быстрое переключение каналов рации дальней связи.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + TAB&lt;/font&gt;	Изменить громкость прямой речи. Можно говорить шепотом (Whispering), нормально (Normal) и кричать (Yelling). Не влияет на кромкость сигнала в радио передаче.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;SHIFT + P&lt;/font&gt;	Открыть интерфейс переговорного устройства для дайверов (на вас должен быть надет ребризер).&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + Caps Lock&lt;/font&gt;	Разговор по переговорному устройству для дайверов.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + ]&lt;/font&gt;	Следующая рация ближней связи.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + [&lt;/font&gt;	Предыдущая рация ближней связи.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + ALT + ]&lt;/font&gt;	Следующая рация дальней связи.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + ALT + [&lt;/font&gt;	Предыдущая рация дальней связи.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + [←,↑,→]&lt;/font&gt;	Изменение стерео режима рации ближней связи.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + [←,↑,→]&lt;/font&gt;	Изменение стерео режима рации дальней связи.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;T&lt;/font&gt;	Передача на дополнительном канале персональной рации.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;Y&lt;/font&gt;	Передача на дополнительном канале рации дальней связи.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ESC&lt;/font&gt;	Выход из интерфейса рации.&lt;br/&gt;
+				</Russian>
+				<French>
+&lt;font color=&quot;#67ED24&quot;&gt; Bouton Push-to-talk dans TeamSpeak&lt;/font&gt;	Voix Directe.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;Caps Lock&lt;/font&gt;	Pour parler à la radio courte portée.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + Caps Lock&lt;/font&gt;	Pour parler à la radio longue portée.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + P&lt;/font&gt;	Pour ouvrir l'interface de la radio courte portée (elle doit être dans le slot de radio). Dans le cas où vous avez plusieurs radios vous pouvez choisir celle dont vous voulez ouvrir l'interface. Il est aussi possible de choisir la radio active (celle qui sera utilisé pour les transmissions).&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;NUM[1-8]&lt;/font&gt;	Changement rapide de canal sur la radio courte portée.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + P&lt;/font&gt;	Pour ouvrir l'interface de la radio longue portée (Vous devez avoir une radio longue portée sur votre dos, ou vous pouvez utiliser celle d'un véhicule en tant que conducteur, tireur ou copilote). Si plusieurs radios sont disponibles vous devrez en choisir une. Il est aussi possible de choisir la radio active (celle qui sera utilisé pour les transmissions).&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + NUM[1-9]&lt;/font&gt; Changement rapide de canal sur la radio longue portée.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + TAB&lt;/font&gt;	Pour changer le volume de la voix direct. Vous pouvez avoir 3 volumes de voix : Faible, Normale ou Forte. N'affecte pas le volume de la voix en transmission radio.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;SHIFT + P&lt;/font&gt;	Pour ouvrir l'interface de la radio sous-marine (vous devez porter un recycleur).&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + Caps Lock&lt;/font&gt;	Pour parler à la radio sous-marine.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + ]&lt;/font&gt;	Sélectionnez prochaine radio personnelle.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + [&lt;/font&gt;	Select previous personal radio.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + ALT + ]&lt;/font&gt;	Sélectionnez radio personnelle précédente.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + ALT + [&lt;/font&gt;	Sélectionnez précédente radio longue portée..&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + [←,↑,→]&lt;/font&gt;	Changer le mode stéréo de radio personnelle.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + [←,↑,→]&lt;/font&gt;	Changer le mode stéréo radio longue portée.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;T&lt;/font&gt;	Transmettre sur le canal supplémentaire de radio personnelle.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;Y&lt;/font&gt;	Transmettre sur le canal supplémentaire de radio longue portée.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ESC&lt;/font&gt;	Pour fermer l'interface de la radio.	
+				</French>
+				<Italian>
+&lt;font color=&quot;#67ED24&quot;&gt;Bottone Push-to-talk in TeamSpeak&lt;/font&gt;	Voce diretta.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;Caps Lock&lt;/font&gt;	Per parlare in radio onde corte.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + Caps Lock&lt;/font&gt;	Per parlare in radio onde lunghe.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + P&lt;/font&gt;	Per aprire l'interfaccia della radio onde corte(la radio deve essere nello slot inventario). Nel caso si abbia il numero della radio - si può selezionare la radio di cui si ha bisogno. E' anche possibile selezionare la radio come attiva ( utilizzata per trasmettere ).&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;NUM[1-8]&lt;/font&gt;	Cambio rapido canali radio onde corte.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + P&lt;/font&gt;	Per aprire l'interfaccia della radio onde lunghe (devi indossare una radio ad onde lunghe, o dovresti essere in un veicolo nella posizione di guida, tiratore o copilota). Se un numero di radio è disponibile – ti sarà possibile sceglierne una. Sarà anche possibile quale scegliere come radio attiva ( utilizzata per trasmettere ).&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + NUM[1-9]&lt;/font&gt;	Cambio rapido canali radio onde corte.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + TAB&lt;/font&gt;	Per cambiare il volume con cui si parla. Puoi parlare: bassa voce, normale o gridare. Non cambia il volume di trasmissione in radio.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;SHIFT + P&lt;/font&gt;	Per aprire l'interfaccia della radio subacquea (devi indossare un respiratore).&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + Caps Lock&lt;/font&gt;	Per parlare con la radio subacquea.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + ]&lt;/font&gt;	Selezionare prossima radio personale.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + [&lt;/font&gt;	Selezionare precedente radio personale.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + ALT + ]&lt;/font&gt;	Selezionare prossima lunga portata radio.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + ALT + [&lt;/font&gt;	Selezionare precedente la radio a lungo raggio.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + [←,↑,→]&lt;/font&gt;	Passare alla modalità radio stereo personale.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + [←,↑,→]&lt;/font&gt;	Passare alla modalità radio stereo lungo raggio.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;T&lt;/font&gt;	Trasmettere sul canale aggiuntivo di radio personale.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;Y&lt;/font&gt;	Trasmettere sul canale supplementare di lunga radiofonica gamma.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ESC&lt;/font&gt;	Per uscire dalla interfaccia radio.
+				</Italian>
+				<Spanish>
+&lt;font color=&quot;#67ED24&quot;&gt;Boton de Pulsar para hablar&lt;/font&gt;	Voz directa.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;Block Mayus&lt;/font&gt;	Transmitir por la radio de onda corta.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + Block Mayus&lt;/font&gt;	Transmitir por la radio de onda larga.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + P&lt;/font&gt;	Para abrir el interfaz de la radio (la radio debe estar en el slot de radio del inventario). En el caso de que tengas mas de una radio - Puede seleccionar la radio que necesites. También es posible selecionar como radio activa (aquella con la que transmites).&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + SHIFT + A/D&lt;/font&gt; Cambiar a otra radio de onda corta.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;CTRL + Flecha Arriba/Izquierda/Derecha&lt;/font&gt; Cambio rapido del modo stereo.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;NUM[1-8]&lt;/font&gt;	Cambio rapido de canales de la radio de onda corta.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + P&lt;/font&gt;	Para abrir el interfaz de la radio de onda larga (Debes tener una radio de onda larga como mochila o estar en un vehiculo en la posicion de conductor, artillero, comandante or piloto). Si hay varias radios disponibles podras elegir una. Ademas de poder ponerla como radio activa.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + SHIFT + A/D&lt;/font&gt; Cambiar radio activa de onda larga.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;ALT + Flecha Arriba/Izquierda/Derecha&lt;/font&gt; Cambio rapido de modo stereo en la radio de onda larga.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;CTRL + NUM[1-9]&lt;/font&gt;	Cambio rapido de canales de la radio de onda larga.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + TAB&lt;/font&gt;	Para hablar en voz directa. Puedes hablar: Susurrando, Normal or Gritando. Esto no afecta al volumen de voz, si no a la distancia a la que te escuchan los demas jugadores.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;SHIFT + P&lt;/font&gt;	Para abrir el interfaz del transmisor submarino (Debes de tener en el inventario un respirado).&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + Caps Lock&lt;/font&gt;	Para transmitir por el transmisor submarino.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + ]&lt;/font&gt;	Seleccionar siguiente radio personal.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + [&lt;/font&gt;	Seleccionar radio personal anterior.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + ALT + ]&lt;/font&gt;	Seleccionar siguiente de largo alcance.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + ALT + [&lt;/font&gt;	Seleccionar radio de largo alcance anterior.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;CTRL + [←,↑,→]&lt;/font&gt;	Cambiar modo stero de la radio personal.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + [←,↑,→]&lt;/font&gt;	Cambiar modo stero de la radio de largo alcance.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;T&lt;/font&gt;	Transmitir por el el canal adicional de la radio personal.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;Y&lt;/font&gt;	Transmitir por el canal adicional de la radio de largo alcance.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ESC&lt;/font&gt;	Para salir del interfaz de las radios.
+				</Spanish>
+				<German>
+&lt;font color=&quot;#67ED24&quot;&gt;Push-to-talk Taste in TeamSpeak&lt;/font&gt;	Direktes Sprechen.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;Feststelltaste&lt;/font&gt;	Kurzstreckenfunk.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;STRG + Feststelltaste&lt;/font&gt;	Langstreckenfunk.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;STRG + P&lt;/font&gt;	Kurzstreckenfunk-Interface öffnen. Das Funkgerät muss sich im Inventar befinden. Sollten mehrere Funkgerät im Inventar vorhanden sein, wird ein Auswahlmenü angezeigt. Es kann ein Funkgerät als aktiv gesetzt werden, welches dann zum Funken benutzt wird.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;STRG + SHIFT + A/D&lt;/font&gt; Kurzstreckenfunkgeräte durschalten.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;STRG + Pfeiltaste Hoch/Links/Rechts&lt;/font&gt; Stereoeinstellung für Kurzstreckenfunk.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;NUM[1-8]&lt;/font&gt;	Kanalwahl für Kurzstreckenfunk.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;ALT + P&lt;/font&gt;	Langstreckenfunk-Interface öffnen. Das Funkgerät muss im Rucksackslot sein oder Sie befinden sich in einem Fahrzeug. Sollten mehrere Funkgerät ansteuerbar sein, wird ein Auswahlmenü angezeigt. Es kann ein Funkgerät als aktiv gesetzt werden, welches dann zum Funken benutzt wird.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;ALT + SHIFT + A/D&lt;/font&gt; Langstreckenfunkgeräte durchschalten.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;ALT + Up/Left/Right Arrow&lt;/font&gt; Stereoeinstellungen für Langstreckenfunk.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;STRG + NUM[1-9]&lt;/font&gt;	Kanalwahl für Langstreckenfunk.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;STRG + TAB&lt;/font&gt;	Lautstärkewahl für das Direkte Sprechen. Sie können leise, normal und laut sprechen (betrifft nicht die Lautstärke beim Funken).&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;SHIFT + P&lt;/font&gt;	Unterwasser-Transceiver-Interface öffnen (benötigt Kreislauftauchgerät).&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;ALT + Caps Lock&lt;/font&gt;	Auf Unterwasser-Transceiver funken.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;STRG + ]&lt;/font&gt;	Nächstes Personal Radio wählen.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;STRG + [&lt;/font&gt;	Vorheriges Personal Radio wählen.&lt;br/&gt;
+&lt;font color=&quot;#67ED24&quot;&gt;STRG + ALT + ]&lt;/font&gt;	Nächstes Langstreckenfunkgerät wählen.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;STRG + ALT + [&lt;/font&gt;	Vorheriges Langstreckenfunkgerät wählen.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;STRG + [←,↑,→]&lt;/font&gt;	Stereoeinstellungen für das Personal Radio ändern.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;ALT + [←,↑,→]&lt;/font&gt;	Stereoeinstellungen für das Langstreckenfunkgerät ändern.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;T&lt;/font&gt;	Auf dem zusätzlichen Kanal des Personal Radio senden.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;Y&lt;/font&gt;	Auf dem zusätzlichen Kanal des Langstreckenfunkgerätes senden.&lt;br/&gt;&lt;font color=&quot;#67ED24&quot;&gt;ESC&lt;/font&gt;	Funkinterface verlassen.
+				</German>
+			</Key>			
+			<Key ID="STR_radio_diver">
+				<Original>
+					For divers
+				</Original>
+				<Russian>
+					Подводникам
+				</Russian>
+				<French>
+					Pour les plongeurs
+				</French>
+				<Italian>
+					Per i sommozzatori
+				</Italian>
+				<Spanish>
+					Para buceadores
+				</Spanish>
+				<German>
+					Für Taucher
+				</German>
+			</Key>
+			<Key ID="STR_radio_diver_text">
+				<Original>
+You can not talk underwater (even wearing a diving suit). However, at close distance your companion can hear some indistinct speech (exception - if you are underwater in an isolated vehicle).&lt;br/&gt;
+Being underwater, you can faintly hear muffled voices on land.&lt;br/&gt;
+Use an underwater transceiver for communication among divers.&lt;br/&gt;
+You can not use radio communication underwater (neither to talk nor to hear). If you want to pass some message on land - surface. &lt;br/&gt;Exception - submarine in the periscope depth (divers can use a long range radio there).
+				</Original>
+				<Russian>
+Вы не можете говорить голосом находясь под водой (даже в водолазном костюме). Однако на близком расстоянии ваш собеседник сможет расслышать что-либо очень невнятное (исключение - если вы под водой в изолированной технике).&lt;br/&gt;
+Находясь под водой, вы невнятно и слабо слышите голоса на суше.&lt;br/&gt;
+Для связи между дайверами используйте Переговорное устройство.&lt;br/&gt;
+Вы не можете пользоваться радио связью под водой (ни говорить, ни слышать). Если нужно что-то передать на сушу - всплывайте. Исключение - субмарина на перископной глубине (в ней водолазам можно использовать рацию дальней связи).&lt;br/&gt;
+				</Russian>
+				<French>
+Vous ne pouvez pas parler sous l'eau (même en portant une combinaison de plongée). Cependant, à courte distance vos coéquipiers peuvent entendre des paroles indistinctes (excéption - si vous êtes dans un véhicule sous-marin isolé).&lt;br/&gt;
+En étant sous l'eau, Being underwater, vous pouvez entendre faiblement des voix assourdies sur la terre.&lt;br/&gt;
+Utiliser une radio sous-marine pour la communications entre plongeurs.&lt;br/&gt;
+Vous ne pouvez pas utiliser de radio sous l'eau (ni recevoir ni transmettre). Si vous voulez passer un message à la surface ou sur terre. &lt;br/&gt;Exception - les sous-marins à profondeur de périscope (les plongeurs peuvent utiliser une radio longue portée à ce moment la).					
+				</French>
+				<Italian>
+Non puoi parlare sott'acqua (anche se indossi una muta). Comunque, se sei vicino al tuo gregario puoi sentire sulle brevi distanze la propria voce distorta (ad eccezione se siete sott'acquea in un veicolo isolato).&lt;br/&gt;
+Essendo sott'acqua, non potrai capire le comunicazioni sulla terra ferma.&lt;br/&gt;
+Usa il ricetrasmettitore subacqueo per comunicare con gli altri sommozzatori.&lt;br/&gt;
+Non puoi usare le normali radio sott'acqua (nè trasmettere nè ricevere). Se vuoi usare la normale radio emergi in superfice. &lt;br/&gt;Eccezione - sottomarino a quota periscopio (i sommozzatori possono usare una radio ad onde lunghe).
+				</Italian>
+				<Spanish>
+No puedes hablar bajo el agua (incluso llevando un traje de buceo). Sin embargo, a ciertas distancias tus compañeros podrían escuchar un discurso indistinguible (a excepción de si estas en un vehículo aislado).&lt;br/&gt;
+Estando bajo el agua, podrás escuchar débilmente voces sordas de tierra.lt;br/&gt;
+Usa un transceptor submarino para comunicarte con otros buceadores. Si deseas contactar con alguien que este en tierra, sube a la superficie. &lt;br/&gt;A excepción de los submarinos en profundidad de periscopio (los buceadores podrán utilizar la radio de largo alcance).
+				</Spanish>
+				<German>
+Sie können nicht unter Wasser reden, selbst wenn Sie einen Taucheranzug tragen. Auf nahe Distanz kann ihr Partner allerdings undeutliche Töne wahrnehmen (Ausnahme: Sie befinden sich in einem Fahrzeug).&lt;br/&gt;Wenn Sie sich unter Wasser befinden, können sie Unterhaltungen an Land gedämpft wahrnehmen.&lt;br/&gt;Nutzen Sie den Unterwasser-Transceiver, um sich mit anderen Tauchern zu unterhalten.&lt;br/&gt;Sie können normale Funkgeräte unter Wasser nicht nutzen (weder Senden noch Empfangen).&lt;br/&gt;Ausnahme: U-Boot auf Periskoptiefe. Hier kann der Langstreckenfunk verwendet werden.
+				</German>
+			</Key>
+			<Key ID="STR_radio_intercept">
+				<Original>
+					Radio Interception
+				</Original>
+				<Russian>
+					Радиоперехват
+				</Russian>
+				<French>
+					Interception Radio 
+				</French>
+				<Italian>
+					Intercettazioni radio
+				</Italian>
+				<Spanish>
+					Intercepción de la radio
+				</Spanish>
+				<German>
+					Abhören von Funksprüchen
+				</German>
+			</Key>
+			<Key ID="STR_radio_intercept_text">
+				<Original>
+Radio can be taken from killed players, and given to each other. Thus, they retain all the settings (channels, frequency, volume).&lt;br/&gt;
+In vehicles radio settings are also saved.&lt;/br&gt;
+By default, radios of each faction use their own encryption codes, so you will not hear enemy talks, even setting the enemy’s frequency. To listen to the enemy’s net (and talk on the air) - it’s necessary by any means to capture an enemy radio station.
+				</Original>
+				<Russian>
+Рации можно поднимать у убитых игроков, передавать их друг другу.&lt;br/&gt;
+При этом они сохраняют все настройки (каналы, частоты, громкость).&lt;br/&gt;
+Настройки рации в технике также сохраняются.&lt;br/&gt;
+По умолчанию рации каждой фракции используют свои коды шифрования, поэтому вы не будете слышать вражеские переговоровы, даже введя используемую врагами частоту. &lt;br/&gt;
+Чтобы прослушивать (и говорить в эфир) противника - необходимо каким-либо образом захватить вражескую радиостанцию.
+				</Russian>
+				<French>
+Les radios peuvent être prises sur les joueurs tués, et utilisé par n'importe qui. De plus, elles gardent leurs configurations (canaux, fréquence, volume).&lt;br/&gt;
+Les radios des véhicules gardent aussi leurs configurations.&lt;/br&gt;
+Par défaut, les radios de chaque faction utilise leurs propres codes de cryptage, donc vous n'entendrez pas les communications ennemis même si la fréquence est la même. Pour espionner leurs transmissions il est primordiale de capturer par tout les moyens necessaires une station radio ennemi.
+				</French>
+				<Italian>
+Le radio possono essere prese dai giocatori uccisi ed essere scambiate. Esse conservano tutti i dati (canali, frequenze, volume).&lt;br/&gt;
+Anche le radio dei veicoli vengono salvate.&lt;/br&gt;
+Di default, le radio di ogni fazione usano i rispettivi codici di criptaggio, quindi non sentirai le comunicazioni nemiche, perfino settando la frequenza nemica. Per ascoltarle (e anche trasmettere) - è necessario catturare una stazione radio nemica.
+				</Italian>
+				<Spanish>
+Las radios pueden obtenerse de jugadores muertos y ser dadas a otros jugadores. Estas conservaran todas las configuración (canales, frecuencias, volumen).&lt;br/&gt;
+En los vehículos las opciones también son conservadas.&lt;br/&gt;
+Por defecto, las radios de cada facción usan sus propios códigos de encriptación, así que no podrás escuchar al enemigo comunicarse, incluso estando en la misma frecuencia que el enemigo. Para poder escuchar la red del enemigo (y también hablar), es necesario capturar una radio enemiga.
+				</Spanish>
+				<German>
+Funkgeräte können sowohl von getöteten Spielern aufgenommen als auch untereinander ausgetauscht werden. Alle Einstellungen (Kanäle, Frequenzen, Lautstärke) bleiben dabei erhalten.&lt;br/&gt;In Fahrzeugen werden die Einstellungen ebenfalls gespeichert.&lt;/br&gt;Standardmäßig verwendet jede Fraktion ihren eigenen Verschlüsselungscode. Sie können also gegnerischen Sprechfunk selbst dann nicht aufnehmen, wenn Sie sich auf derselben Frequenz befinden. Um Sprechfunk abzuhören, muss ein feindliches Funkgerät in ihren Besitz gelangen.
+				</German>
+			</Key>
+			<Key ID="STR_radio_vehicle">
+				<Original>
+					Vehicles
+				</Original>
+				<Russian>
+					Техника
+				</Russian>
+				<French>
+					Vehicules
+				</French>
+				<Italian>
+					Veicoli
+				</Italian>
+				<Spanish>
+					Vehículo
+				</Spanish>
+				<German>
+					Fahrzeuge
+				</German>
+			</Key>
+			<Key ID="STR_radio_vehicle_text">
+				<Original>
+A long range radio is available for a driver, commander, shooter, and pilot assistant. Not all the vehicles support built-in radios.
+&lt;br/&gt;
+Each vehicle slot has its own radio, which must be configured separately. If you plan to change the position in a vehicle – configure the radio in all the slots beforehand (for instance, on a driver or shooter slot).
+&lt;br/&gt;
+Vehicles are classified into open and closed (isolated). If you are in an isolated vehicle, you will not hear voices from outside (and vice versa). However, if you turn out of the vehicle, you will hear voices both from inside and outside.
+				</Original>
+				<Russian>
+Рация дальней доступна в технике водителю, командиру, стрелку и помощнику пилота. Не вся техника имеет встроенные рации.&lt;br/&gt;
+
+У каждого слота техники своя рация, которая должна быть настроена отдельно. Если вы планируете пересаживаться с места на места в технике - предварительно настройте рацию на всех слотах (например на слоте водителя и на слоте стрелка).&lt;br/&gt;
+
+Техника делиться на открытую и закрытую (изолированную). Если вы находитесь в изолированной технике, то не будете слышать голоса снаружи (и наоборот). Однако, если вы выгляните из техники, то будете слышать как голоса внутри, так и снаружи.&lt;br/&gt;
+				</Russian>
+				<French>
+Une radio longue portée est disponible pour le conducteur, chef de char, tireur et copilot. Les véhicules non pas tous une radio longue portée installée.
+&lt;br/&gt;
+Chaque place de véhicule à sa propre radio devant être configuré séparément. Si vous prévoyez de changer de position dans un véhicule – configurez la radio à toutes les places nécessaires à l'avance (par exemple, à la place de conducteur et de tireur).
+&lt;br/&gt;
+Les vehicules sont classé dans la catégorie "Ouvert" et "Fermé" (isolé). Si vous êtes dans un véhicule fermé, vous n'entendrez pas les voix provenant de l'exterieur (et vice versa). Par contre, si vous sortez la tête du véhicule vous entendrez les voix de l'interieur et exterieur.
+				</French>
+				<Italian>
+La radio ad onde lunghe è disponibile per autista, comandante, tiratore e copilota. Non tutti i veicoli hanno radio incorporate.
+&lt;br/&gt;
+Ogni posizione del veicolo ha il proprio slot radio che deve essere configurato separatamente. Se hai in mente di cambiare posizione assicurati di modificare di conseguenza la radio( per esempio autista e tiratore).
+&lt;br/&gt;
+I veicoli sono classificati in aperti e chiusi (isolati). Se sei dentro ad un veicolo isolato, non sentirai le comunicazioni dirette esterne (e viceversa). Comunque, se ti sporti fuori dal veicolo, potrai sentire le comunicazioni dirette e rispondere di conseguenza.
+				</Italian>
+				<Spanish>
+Una radio de largo alcance esta disponible para el conductor, comandante, artillero y copiloto. No todos los vehículos tienen integrada una radio.
+&lt;br/&gt;
+Cada vehículo tiene su propia radio, que debe ser configurada independientemente de la posición del vehículo(conductor, comandante, artillero, copiloto). Si planeas cambiar la posición en vehículo - configura previamente cada posición.
+&lt;br/&gt;
+Los vehículos están clasificados en abiertos y cerrados (aislados). si estas dentro de un vehículo aislado, no escucharas voces de los ocupantes del vehículo fuera del mismo y viceversa.
+				</Spanish>
+				<German>
+In Fahrzeugen kann ein eingebautes Langstreckenfungerät jeweils vom Fahrer, Schützen, Kommandanten oder Piloten verwendet werden. Allerdings verfügen nicht alle Fahrzeuge über ein Fahrzeugfunkgerät.&lt;br/&gt;Es gibt geschlossene (isolierte) und offene Fahrzeuge. Sollten Sie sich in einem geschlossenen Fahrzeug befinden, sind Sie nicht in der Lage Stimmen von außen zu hören und vice versa. Sollten Sie sich allerdings Überluke befinden, können Sie Stimmen von außen und aus dem Innenraum des Fahrzeuges aufnehmen.
+				</German>
+			</Key>
+		</Container>
+	</Package>
+</Project>

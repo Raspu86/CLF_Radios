@@ -93,7 +93,7 @@ class CfgVehicles {
 		tf_encryptionCode = "tf_west_radio_code";
 		tf_dialog = "falconiiimc_radio_dialog";
 		tf_subtype = "digital_lr";
-		tf_dialogUpdate = "[""CH%1""] call CLF_fnc_updateADLRDialogToChannel;";
+		tf_dialogUpdate = "[""0%1""] call CLF_fnc_updateAddLRDialogToChannel;";
 	};
 
 	class clf_nicecomm2_multi: clf_nicecomm2 {
@@ -110,6 +110,54 @@ class CfgVehicles {
 		displayName = "NICE COMM 2 US Falcon III (Coyote)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\clf_radios\data\clf_nicecomm2_coyote_co.paa"};
+	};
+
+	class clf_nicecomm2_prc117g: TFAR_Bag_Base
+	{
+		scope=1;
+		displayName="NICE COMM 2 US Falcon III";
+		picture="\clf_radios\data\clf_nicecomm2_icon.paa";
+		icon="iconBackpack";
+		model="\clf_radios\clf_nicecomm2.p3d";
+		maximumLoad=60;
+		mass=40;
+		class TransportMagazines
+		{
+		};
+		class TransportWeapons
+		{
+		};
+		isbackpack=1;
+		reversed=1;
+		mapSize=2;
+		vehicleClass="Backpacks";
+		allowedSlots[]={901};
+		transportMaxWeapons=0;
+		transportMaxMagazines=10;
+		class DestructionEffects
+		{
+		};
+		tf_encryptionCode = "tf_west_radio_code";
+		tf_subtype = "digital_lr";
+		tf_dialog = "anprc117g_radio_dialog";
+		tf_dialogUpdate = "[""CH%1""] call TFAR_fnc_updateLRDialogToChannel;";
+	};
+
+	class clf_nicecomm2_prc117g_multi: clf_nicecomm2_prc117g {
+		scope = 2;
+		model = "\clf_radios\clf_nicecomm2_prc117g.p3d";
+		displayName = "NICE COMM 2 US AN/PRC-117G (Multicam)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\clf_radios\data\clf_nicecomm2_co.paa"};
+	};
+
+	class clf_nicecomm2_prc117g_coy: clf_nicecomm2_prc117g {
+		scope = 2;
+		model = "\clf_radios\clf_nicecomm2_prc117g.p3d";
+		displayName = "NICE COMM 2 US AN/PRC-117G (Coyote)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\clf_radios\data\clf_nicecomm2_coyote_co.paa"};
+
 	};		
 };
 

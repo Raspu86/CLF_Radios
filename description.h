@@ -147,6 +147,24 @@ class HiddenButton
 	borderSize = 0;
 };
 
+class RscControlsGroup;
+class RscActiveText;
+class RscPicture;
+class RscText;
+class RscObject;
+class RscMapControl;
+
+    class CLF_GPS_MAP: RscMapControl {
+    sizeExGrid = 0.025;
+    maxSatelliteAlpha=0;
+    colorBackground[]={0.92941177,0.92941177,0.92941177,1};
+    colorCountlines[]={0.64705884,0.53333336,0.28627452,1};
+    colorMainCountlines[]={0.85882354,0,0};
+    colorForest[]={0.60000002,0.80000001,0.2,0.25};
+    colorLevels[]={0,0,0,1};
+    sizeExLevel=0.025;
+    sizeExLabel = 0.014000;
+    };
 
 #include "\clf_radios\data\interfaces\anprc117g.ext"
 #include "\clf_radios\data\interfaces\falconIIImc.ext"

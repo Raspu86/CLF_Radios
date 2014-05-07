@@ -5,8 +5,11 @@ class CfgFunctions
 		class Radio
 		{
 			file="clf_radios\functions";		
-			class updateADLRDialogToChannel{};
-			class updateADLRDialogToChannel2{};
+			class updateAddLRDialogToChannel{};
+			class update2ndLRDialogToChannel{};
+			class set1stLrStereo{};
+			class set2ndLrStereo{};
+			class show2ndRadioVolume{};
 		};
 	};
 };

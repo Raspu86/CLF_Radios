@@ -1,4 +1,4 @@
-/* #Fytito
+/* #Xicyve
 $[
 	1.063,
 	["trc9110",[[0,0,1,1],0.025,0.04,"GUI_GRID"],0,0,0],
@@ -21,9 +21,9 @@ $[
 	[1815,"channel8",[1,"",["0.283437 * safezoneW + safezoneX","0.731 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
 	[1816,"channel9",[1,"",["0.319531 * safezoneW + safezoneX","0.731 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
 	[1817,"stereo",[1,"",["0.283437 * safezoneW + safezoneX","0.786 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
-	[1818,"additional",[1,"",["0.319531 * safezoneW + safezoneX","0.786 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]]
+	[1818,"additional",[1,"",["0.319531 * safezoneW + safezoneX","0.786 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1819,"",[1,"",["0.2525 * safezoneW + safezoneX","0.302 * safezoneH + safezoneY","0.0896563 * safezoneW","0.1555 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]]
 ]
-$[1.063,["trc9110",[[0,0,1,1],0.025,0.04,"GUI_GRID"],0,0,0],[1200,"trc9110",[1,"clf_radios\data\interfaces\trc9110.paa",["0.0359372 * safezoneW + safezoneX","0.016 * safezoneH + safezoneY","0.520781 * safezoneW","0.968 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1800,"edit",[1,"",["0.298906 * safezoneW + safezoneX","0.236 * safezoneH + safezoneY","0.04125 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1801,"channel_edit",[1,"",["0.2525 * safezoneW + safezoneX","0.236 * safezoneH + safezoneY","0.0464063 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1802,"enter",[1,"",["0.319531 * safezoneW + safezoneX","0.555 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1803,"clear",[1,"",["0.242187 * safezoneW + safezoneX","0.786 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1804,"next_channel",[1,"",["0.319531 * safezoneW + safezoneX","0.599 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1805,"prev_channel",[1,"",["0.247344 * safezoneW + safezoneX","0.599 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1806,"increase_volume",[1,"",["0.298906 * safezoneW + safezoneX","0.016 * safezoneH + safezoneY","0.020625 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1807,"decrease_volume",[1,"",["0.273125 * safezoneW + safezoneX","0.016 * safezoneH + safezoneY","0.020625 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1808,"channel1",[1,"",["0.242187 * safezoneW + safezoneX","0.643 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1809,"channel2",[1,"",["0.283437 * safezoneW + safezoneX","0.643 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1810,"channel3",[1,"",["0.319531 * safezoneW + safezoneX","0.643 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1811,"channel4",[1,"",["0.242187 * safezoneW + safezoneX","0.687 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1812,"channel5",[1,"",["0.283437 * safezoneW + safezoneX","0.687 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1813,"channel6",[1,"",["0.319531 * safezoneW + safezoneX","0.687 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1814,"channel7",[1,"",["0.242187 * safezoneW + safezoneX","0.731 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1815,"channel8",[1,"",["0.283437 * safezoneW + safezoneX","0.731 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1816,"channel9",[1,"",["0.319531 * safezoneW + safezoneX","0.731 * safezoneH + safezoneY","0.0309375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1817,"stereo",[1,"",["0.283437 * safezoneW + safezoneX","0.786 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1818,"additional",[1,"",["0.319531 * safezoneW + safezoneX","0.786 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]]]
 */
 
 class trc9110_radio_dialog
@@ -54,7 +54,8 @@ class trc9110_radio_dialog
 	increase_volume,
 	decrease_volume,
 	stereo,
-	additional
+	additional,
+	map
 };
 
 ////////////////////////////////////////////////////////
@@ -271,6 +272,14 @@ class additional: HiddenButton
 	h = 0.033 * safezoneH;
 	tooltip = $STR_set_additional;
 	action = "[TF_sw_dialog_radio, TF_sw_dialog_radio call TFAR_fnc_getSwChannel] call TFAR_fnc_setAdditionalSwChannel; call TFAR_fnc_updateSWDialogToChannel; [TF_sw_dialog_radio, false] call TFAR_fnc_ShowRadioInfo;";
+};
+class map: CLF_GPS_MAP
+{
+	idc = IDC_TRC9110_MAP;
+	x = 0.2525 * safezoneW + safezoneX;
+	y = 0.302 * safezoneH + safezoneY;
+	w = 0.0896563 * safezoneW;
+	h = 0.1555 * safezoneH;
 };
 ////////////////////////////////////////////////////////
 // GUI EDITOR OUTPUT END

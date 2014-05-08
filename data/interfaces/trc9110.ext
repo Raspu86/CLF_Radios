@@ -1,10 +1,10 @@
-/* #Xicyve
+/* #Juzyre
 $[
 	1.063,
 	["trc9110",[[0,0,1,1],0.025,0.04,"GUI_GRID"],0,0,0],
 	[1200,"trc9110",[1,"clf_radios\data\interfaces\trc9110.paa",["0.0359372 * safezoneW + safezoneX","0.016 * safezoneH + safezoneY","0.520781 * safezoneW","0.968 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
-	[1800,"edit",[1,"",["0.298906 * safezoneW + safezoneX","0.236 * safezoneH + safezoneY","0.04125 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
-	[1801,"channel_edit",[1,"",["0.2525 * safezoneW + safezoneX","0.236 * safezoneH + safezoneY","0.0464063 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1800,"edit",[1,"",["0.288594 * safezoneW + safezoneX","0.236 * safezoneH + safezoneY","0.0515625 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1801,"channel_edit",[1,"",["0.2525 * safezoneW + safezoneX","0.236 * safezoneH + safezoneY","0.0360937 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
 	[1802,"enter",[1,"",["0.319531 * safezoneW + safezoneX","0.555 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
 	[1803,"clear",[1,"",["0.242187 * safezoneW + safezoneX","0.786 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
 	[1804,"next_channel",[1,"",["0.319531 * safezoneW + safezoneX","0.599 * safezoneH + safezoneY","0.0309375 * safezoneW","0.033 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
@@ -37,8 +37,6 @@ class trc9110_radio_dialog
 {
 	background,
 	enter,
-	edit,
-	channel_edit,
 	clear,
 	prev_channel,
 	next_channel,
@@ -55,7 +53,9 @@ class trc9110_radio_dialog
 	decrease_volume,
 	stereo,
 	additional,
-	map
+	map,
+	channel_edit,
+	edit
 };
 
 ////////////////////////////////////////////////////////
@@ -75,31 +75,31 @@ class background: RscBackPicture
 };
 class edit: RscEditLCD
 {
-	moving = 1;
 	idc = IDC_TRC9110_EDIT;
-	x = 0.298906 * safezoneW + safezoneX;
+	x = 0.288594 * safezoneW + safezoneX;
 	y = 0.236 * safezoneH + safezoneY;
-	w = 0.04125 * safezoneW;
+	w = 0.0515625 * safezoneW;
 	h = 0.044 * safezoneH;
 	font = "tf_font_dots";
 	shadow = 2;
 	sizeEx = 0.05;
 	tooltip = $STR_current_freq;
+	moving = 1;
 	canModify = 1;
 };
 class channel_edit: RscEditLCD
 {
-	moving = 1;
 	idc = IDC_TRC9110_CHANNEL_EDIT;
 	x = 0.2525 * safezoneW + safezoneX;
 	y = 0.236 * safezoneH + safezoneY;
-	w = 0.0464063 * safezoneW;
+	w = 0.0360937 * safezoneW;
 	h = 0.044 * safezoneH;
 	font = "tf_font_dots";
 	shadow = 2;
 	sizeEx = 0.05;
 	tooltip = $STR_current_channel;
 	canModify = 0;
+	moving = 1;
 };
 class clear: HiddenButton
 {
@@ -119,7 +119,7 @@ class prev_channel: HiddenButton
 	w = 0.0309375 * safezoneW;
 	h = 0.033 * safezoneH;
 	tooltip = $STR_previous_channel;
-	action = "[TF_sw_dialog_radio, ((TF_sw_dialog_radio call TFAR_fnc_getSwChannel) + 1) mod TF_MAX_CHANNELS] call TFAR_fnc_setSwChannel; call TFAR_fnc_updateSWDialogToChannel;[TF_sw_dialog_radio, false] call TFAR_fnc_ShowRadioInfo;";
+	action = "[TF_sw_dialog_radio, ((TF_sw_dialog_radio call TFAR_fnc_getSwChannel) - 1 + TF_MAX_CHANNELS) mod TF_MAX_CHANNELS] call TFAR_fnc_setSwChannel; call TFAR_fnc_updateSWDialogToChannel;[TF_sw_dialog_radio, false] call TFAR_fnc_ShowRadioInfo;";
 };
 class next_channel: HiddenButton
 {
@@ -129,7 +129,7 @@ class next_channel: HiddenButton
 	w = 0.0309375 * safezoneW;
 	h = 0.033 * safezoneH;
 	tooltip = $STR_next_channel;
-	action = "[TF_sw_dialog_radio, ((TF_sw_dialog_radio call TFAR_fnc_getSwChannel) - 1 + TF_MAX_CHANNELS) mod TF_MAX_CHANNELS] call TFAR_fnc_setSwChannel; call TFAR_fnc_updateSWDialogToChannel;[TF_sw_dialog_radio, false] call TFAR_fnc_ShowRadioInfo;";
+	action = "[TF_sw_dialog_radio, ((TF_sw_dialog_radio call TFAR_fnc_getSwChannel) + 1) mod TF_MAX_CHANNELS] call TFAR_fnc_setSwChannel; call TFAR_fnc_updateSWDialogToChannel;[TF_sw_dialog_radio, false] call TFAR_fnc_ShowRadioInfo;";
 };
 class enter: HiddenButton
 {

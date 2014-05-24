@@ -148,7 +148,7 @@ class prev_channel_add: HiddenButton
 	y = 0.621 * safezoneH + safezoneY;
 	w = 0.0360937 * safezoneW;
 	h = 0.033 * safezoneH;
-	tooltip = $STR_previous_channel;
+	tooltip = $STR_previous_channel_2nd;
 	action = "[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1,  ((TF_lr_dialog_radio call TFAR_fnc_getAdditionalLrChannel) - 1 + TF_MAX_LR_CHANNELS) mod TF_MAX_LR_CHANNELS] call TFAR_fnc_setAdditionalLrChannel; [""0%1""] call CLF_fnc_update2ndLRDialogToChannel;[TF_lr_dialog_radio, true] call TFAR_fnc_ShowRadioInfo;";
 };
 class prev_channel: HiddenButton
@@ -168,7 +168,7 @@ class next_channel_add: HiddenButton
 	y = 0.577 * safezoneH + safezoneY;
 	w = 0.0360937 * safezoneW;
 	h = 0.033 * safezoneH;
-	tooltip = $STR_next_channel;
+	tooltip = $STR_next_channel_2nd;
 	action = "[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1, ((TF_lr_dialog_radio call TFAR_fnc_getAdditionalLrChannel) + 1) mod TF_MAX_LR_CHANNELS] call TFAR_fnc_setAdditionalLrChannel; [""0%1""] call CLF_fnc_update2ndLRDialogToChannel; [TF_lr_dialog_radio, true] call TFAR_fnc_ShowRadioInfo;";
 };
 class next_channel: HiddenButton

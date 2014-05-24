@@ -56,16 +56,8 @@ class CfgVehicles {
 		{"camo"};
 		hiddenSelectionsTextures[] = {"\clf_radios\data\clf_prc117g_ap_co.paa"};
 	};
-	class clf_prc117g_ap_coy: clf_prc117g_ap {
-		scope = 2;
-		model = "\clf_radios\clf_prc117g_ap.p3d";
-		displayName = "Assault Pack AN/PRC117G (Coyote)";
-		hiddenSelections[] = 
-		{"camo"};
-		hiddenSelectionsTextures[] = {"\clf_radios\data\clf_prc117g_ap_co.paa"};
-	};
 
-		class clf_nicecomm2: TFAR_Bag_Base
+	class clf_nicecomm2: TFAR_Bag_Base
 	{
 		scope=1;
 		displayName="NICE COMM 2 US Falcon III";
@@ -157,7 +149,6 @@ class CfgVehicles {
 		displayName = "NICE COMM 2 US AN/PRC-117G (Coyote)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\clf_radios\data\clf_nicecomm2_coyote_co.paa"};
-
 	};		
 };
 

@@ -342,6 +342,46 @@
 					Nächster Kanal
 				</German>				
 			</Key>
+			<Key ID="STR_previous_channel_2nd">
+				<Original>
+					Additional: Previous channel
+				</Original>
+				<Russian>
+					Additional: Previous channel
+				</Russian>
+				<French>
+					Additional: Previous channel
+				</French>
+				<Italian>
+					Additional: Previous channel
+				</Italian>
+				<Spanish>
+					Additional: Previous channel
+				</Spanish>		
+				<German>
+					Zusätzlich: Vorheriger Kanal
+				</German>			
+			</Key>
+			<Key ID="STR_next_channel_2nd">
+				<Original>
+					Additional: Next channel
+				</Original>
+				<Russian>
+					Additional: Next channel
+				</Russian>
+				<French>
+					Additional: Next channel
+				</French>
+				<Italian>
+					Additional: Next channel
+				</Italian>
+				<Spanish>
+					Additional: Next channel
+				</Spanish>	
+				<German>
+					Zusätzlich: Nächster Kanal
+				</German>				
+			</Key>
 			<Key ID="STR_increase_volume">
 				<Original>
 					Increase volume
